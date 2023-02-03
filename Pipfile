@@ -1,0 +1,12 @@
+[[source]]
+url = 'https://pypi.python.org/simple'
+verify_ssl = true
+name = 'pypi'
+
+[requires]
+python_version = '3'
+
+[packages]
+Flask = '2.2.2'
+gunicorn = { version = '20.1.0', extras = ['gevent'] }
+python-json-logger = '2.0.4'
